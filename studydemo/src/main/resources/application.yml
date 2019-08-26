@@ -1,0 +1,19 @@
+spring:
+  rabbitmq:
+    host: dev.rabbitmq.i.sixi.com       #rabbitmq服务地址
+    port: 5672              #rabbitmq通信端口
+    username: root    #rabbitmq用户名
+    password: root     #rabbitmq密码
+rocketmq:
+  name-server: 192.168.2.123:9876
+  producer:
+    group: xxb-group
+# 通知topic和tag配置
+contract-customer:
+  consumerGroup: xxb
+  topic: topic_xxb_customer_test
+  tag: xxb
+contract-producer:
+  topic: topic_xxb_producer_test
+
+
