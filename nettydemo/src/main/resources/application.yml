@@ -1,18 +1,20 @@
 spring:
   rabbitmq:
-    host: dev.rabbitmq.i.sixi.com       #rabbitmq·şÎñµØÖ·
-    port: 5672              #rabbitmqÍ¨ĞÅ¶Ë¿Ú
-    username: root    #rabbitmqÓÃ»§Ãû
-    password: root     #rabbitmqÃÜÂë
+    host: dev.rabbitmq.i.sixi.com       #rabbitmqï¿½ï¿½ï¿½ï¿½ï¿½Ö·
+    port: 5672              #rabbitmqÍ¨ï¿½Å¶Ë¿ï¿½
+    username: root    #rabbitmqï¿½Ã»ï¿½ï¿½ï¿½
+    password: root     #rabbitmqï¿½ï¿½ï¿½ï¿½
 
 rocketmq:
   name-server: 192.168.2.123:9876
   producer:
     group: xxb-group
-# Í¨ÖªtopicºÍtagÅäÖÃ
+# Í¨Öªtopicï¿½ï¿½tagï¿½ï¿½ï¿½ï¿½
 contract-customer:
   consumerGroup: xxb
   topic: topic_xxb_customer_test
 contract-producer:
   topic: topic_xxb_producer_test
+server:
+  port: 8882
 
