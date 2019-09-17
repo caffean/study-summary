@@ -4,6 +4,10 @@ spring:
     port: 5672              #rabbitmqͨ�Ŷ˿�
     username: root    #rabbitmq�û���
     password: root     #rabbitmq����
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 47.96.116.181:9300
 rocketmq:
   name-server: 192.168.2.123:9876
   producer:
